@@ -11,9 +11,9 @@ Kt = 0.067;
 Ke = 0.067;
 
 % Gain
-Kp = 3.5;
-Ki = 10.5;
-Kd = 0.8; %0.8
+Kp = 35;
+Ki = 12;
+Kd = 7; %0.38
 
 % P, PI, PID
 P = Kp;
@@ -33,7 +33,7 @@ P_Control = feedback(P_Series, 1);
 PI_Control = feedback(PI_Series, 1);
 PID_Control = feedback(PID_Series, 1);
 
-t = 0:0.01:10;
+t = 0:0.01:3;
 
 [yP, tP] = step(P_Control, t);
 [yPI, tPI] = step(PI_Control, t);
