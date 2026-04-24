@@ -29,6 +29,6 @@ When manually tuning, it is crucial to understand how increasing each parameter 
 | **$K_d$ (Derivative)** | Minor change | Decrease | Decrease | No effect in theory | Improve (if $K_d$ is small) |
 
 ## Result
-![P, PI, PID Control Image](PID%1matlab.png)
+![P, PI, PID Control Image](PID%20matlab.png)
 ![Pole-Zero Map](PID.png)
 
